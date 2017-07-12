@@ -26,12 +26,14 @@
           {
             "name": "lat",
             "type": "number",
-            "description": "Latitude in decimal degrees (WGS84, EPSG:4326)."
+            "description": "Latitude (WGS84, EPSG:4326).",
+            "unit": "°"
           },
           {
             "name": "lng",
             "type": "number",
-            "description": "Longitude in decimal degrees (WGS84, EPSG:4326)."
+            "description": "Longitude (WGS84, EPSG:4326).",
+            "unit": "°"
           }
         ]
       }
@@ -56,12 +58,13 @@
             "name": "t",
             "type": "datetime",
             "description": "Date and time (UTC).",
-            "format": "YYYY-MM-DD'T'hh:mm:ss'Z'"
+            "format": "%Y-%m-%dT%H:%M:%SZ"
           },
           {
             "name": "value",
             "type": "number",
-            "description": "Velocity (m / day)."
+            "description": "Velocity",
+            "unit": "m d-1"
           }
         ]
       }
@@ -76,18 +79,19 @@
             "name": "t_begin",
             "type": "datetime",
             "description": "Date and time (UTC) of precipitation onset.",
-            "format": "YYYY-MM-DD'T'hh:mm:ss'Z'"
+            "format": "%Y-%m-%dT%H:%M:%SZ"
           },
           {
             "name": "t_end",
             "type": "datetime",
             "description": "Date and time (UTC) of precipitation end.",
-            "format": "YYYY-MM-DD'T'hh:mm:ss'Z'"
+            "format": "%Y-%m-%dT%H:%M:%SZ"
           },
           {
             "name": "value",
             "type": "number",
-            "description": "Precipitation (mm / day)."
+            "description": "Precipitation",
+            "unit": "mm d-1"
           }
         ]
       }
