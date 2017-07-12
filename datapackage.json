@@ -5,14 +5,14 @@
   "version": "0.1.0",
   "contributors": [
     {
-      "name": "Ethan Welty",
+      "title": "Ethan Welty",
       "email": "ethan.welty@gmail.com",
-      "roles": "Assembled and published the datapackage."
+      "role": "author"
     }
   ],
   "sources": [
     {
-      "name": "Original data, scripts, and documentation",
+      "title": "Original data, scripts, and documentation",
       "path": "sources/"
     }
   ],
